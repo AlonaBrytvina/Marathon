@@ -1,0 +1,20 @@
+
+.live{
+  height: 14px;
+  width: 30px;
+  border-radius: 2px;
+  position: absolute;
+  background: linear-gradient(#EBAF4D, #D60A66 60%);
+  z-index: 1;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 25%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__text{
+    color: white;
+    font-weight: 700;
+    font-size: 8px;
+  }
+}

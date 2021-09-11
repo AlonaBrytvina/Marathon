@@ -1,0 +1,19 @@
+.header {
+  border: 1px solid #C4C4C4;
+  height: 100px;
+  margin-bottom: 30px;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  width: 640px;
+  margin: 0 auto;
+}
+.header__foxgram {
+  padding: 21px 243px 16px 0;
+}
+.header__icons {
+  padding: 21px 28px 16px 0;
+}
+
+/*# sourceMappingURL=header.css.map */
