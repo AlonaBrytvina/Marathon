@@ -3,6 +3,8 @@
 @import "stories.scss";
 @import "live.scss";
 $marg:0 auto;
+$fw:700;
+
 *{
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
@@ -23,7 +25,7 @@ $marg:0 auto;
   }
   &__text{
     display: flex;
-    font-weight: 700;
+    font-weight: $fw;
     justify-content: center;
     align-items: center;
   }
@@ -45,28 +47,26 @@ $marg:0 auto;
   margin: $marg;
   &__likes{
     display: flex;
-    flex-direction: row;
     align-items: center;
   }
   &__heart-img{
     padding: 24px 16px 16px 24px;
   }
   &__likes-number{
-    font-weight: 700;
+    font-weight: $fw;
   }
   &__text-near-number{
-    font-weight: 700;
+    font-weight: $fw;
     padding-left: 5px;
   }
   &__contant{
-    display: flex;
   }
   &__intellectfox{
-    font-weight: 700;
+    font-weight: $fw;
     padding: 0 16px 24px 24px;
   }
   &__name-of-post{
-   
+
   }
 }
 
